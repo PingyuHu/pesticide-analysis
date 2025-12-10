@@ -1,0 +1,40 @@
+{
+  "file_name": "fp2018UniqItem.parquet.gzip",
+  "file_format": "parquet",
+  "data_shape": {
+    "rows": 50829,
+    "columns": 3
+  },
+  "columns": [
+    "项目名称",
+    "category",
+    "itemName"
+  ],
+  "dtypes": {
+    "项目名称": "object",
+    "category": "object",
+    "itemName": "object"
+  },
+  "text_columns": [
+    "项目名称",
+    "category",
+    "itemName"
+  ],
+  "sample_data": {
+    "项目名称": [
+      "*农药*98%呋草酮原药",
+      "*农药*94%叶菌唑原药",
+      "*农药*98%咯菌腈原药"
+    ],
+    "category": [
+      "农药",
+      "农药",
+      "农药"
+    ],
+    "itemName": [
+      "98%呋草酮原药",
+      "94%叶菌唑原药",
+      "98%咯菌腈原药"
+    ]
+  }
+}
